@@ -44,7 +44,7 @@ Being the proud owner of both the [Horowitz & Hill's "The Art of Electronics"](h
 
 #### Printed circuit board
 
-![pcb](images/board-s.png)
+[![pcb](images/component_side-frontal_view-s.png)](images/component_side-frontal_view.png)
 
 #### Demo setup and measurements
 
