@@ -1,4 +1,5 @@
 # LabTools : 100MHz+ Differential Probe
+![](https://img.shields.io/badge/project-under%20construction-lightgrey.svg)
 
 ![opened enclosure](images/opened_enclosure-b.png)
 
