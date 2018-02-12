@@ -1,17 +1,21 @@
-![](https://img.shields.io/badge/project%20status-under%20construction-lightgrey.svg)
 # LabTools : 100MHz+ Differential Probe
+![](https://img.shields.io/badge/project%20status-under%20construction-lightgrey.svg)
 
 ![opened enclosure](images/opened_enclosure-s.png)
 
 ## What
 
-...publication in progress...
+This repository describes how to build your own differential oscilloscope probe. In the respective folders you can find all necessary files to have the pcb produced, drawings on how to prepare the enclosure for final built-in, and detailed datasheets  on the used components.
 
 ## Why
 
-...publication in progress...
+A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly gotten better over the years, I decided to build an improved version with better [specifications](#Input-specifications), based on modern SMD components.
 
 ## How
+
+...publication in progress...
+
+### A differential probe, what is it all about ?
 
 ...publication in progress...
 
@@ -40,7 +44,7 @@
 
 #### Printed circuit board
 
-...publication in progress...
+![pcb](images/board-s.png)
 
 #### Demo setup and measurements
 
