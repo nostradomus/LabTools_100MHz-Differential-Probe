@@ -34,13 +34,14 @@ Being the proud owner of both the [Horowitz & Hill's "The Art of Electronics"](h
 
 ### Input specifications
 
+- 1:1 active differential probe
 - (over) 100MHz off bandwith
 - 100kΩ input resistance
 - max 700Vpp or 2500Vpp (depending on C1,C2)
 
 ### Electronics
 
-![schematic](images/schematic-s.png)
+[![schematic](images/schematic-s.png)](images/schematic.png)
 
 #### Printed circuit board
 
