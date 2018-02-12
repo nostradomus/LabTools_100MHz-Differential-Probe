@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/project-under%20construction-lightgrey.svg)
+![](https://img.shields.io/badge/project%20status-under%20construction-lightgrey.svg)
 # LabTools : 100MHz+ Differential Probe
 
 ![opened enclosure](images/opened_enclosure-s.png)
