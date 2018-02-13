@@ -20,6 +20,10 @@ Being the proud owner of both the [Horowitz & Hill's "The Art of Electronics"](h
 
 ...publication in progress...
 
+### Simulation and calculations
+
+The chip supplier for this project is also having a SPICE (Simulation Program with Integrated Circuit Emphasis) in his catalogue : [LTspice](http://www.linear.com/designtools/software/):registered:, available for both [Windows](http://ltspice.linear-tech.com/software/LTspiceXVII.exe) and [MAC OS's](http://ltspice.linear-tech.com/LTspiceIV.dmg) (free downloads). A specific demo circuit for simulation and calculations for the LTC6268-10 can be downloaded [here](http://www.linear.com/docs/47412). It concerns a file with extension ".asc" which can be opened with the LTspice:registered: software.
+
 ## Progress status
 
  - [x] have a [need](#why)
