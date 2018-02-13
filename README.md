@@ -9,7 +9,7 @@ This repository describes how to build your own differential oscilloscope probe.
 
 ## Why
 
-A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly gotten better over the years, I decided to build an improved version with better [specifications](#Input-specifications), based on modern SMD components.
+A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly gotten better over the years, I decided to build an improved version with better [specifications](#input-specifications), based on modern SMD components.
 
 ## How
 
@@ -22,12 +22,12 @@ Being the proud owner of both the [Horowitz & Hill's "The Art of Electronics"](h
 ## Progress status
 
  - [x] have a [need](#why)
- - [x] define the technical [specifications](#Input-specifications)
+ - [x] define the technical [specifications](#input-specifications)
  - [x] decide on what is should [look](#how) like
  - [ ] create drawings for the [housing](#mechanical-construction)
- - [ ] [test and validate](#Demo-setup-and-measurements) the concept
- - [ ] publish the [schematic and explain the electronics](#Electronics)
- - [x] publish production files for the [electronics board](#Printed-circuit-board) board
+ - [ ] [test and validate](#demo-setup-and-measurements) the concept
+ - [ ] publish the [schematic and explain the electronics](#electronics)
+ - [x] publish production files for the [electronics board](#printed-circuit-board) board
  - [ ] write [end-user documentation](https://github.com/nostradomus/100MHz+_Differential_Probe/wiki)
 
 ## Technical details
@@ -41,6 +41,9 @@ Being the proud owner of both the [Horowitz & Hill's "The Art of Electronics"](h
 
 ### Electronics
 
+As explained [above](#how), the heart of the circuit is based on two Linear Technology [LT6268-10](pdf-files/datasheet_-_LTC6268-10.pdf) high-frequency amplifiers, IC1/IC2, to obtain a fully differential oscilloscope probe with interesting [specifications](#input-specifications). Next, a detailed circuit description from Linear Technology, extended with component names :  
+_The input stage, around IC1, is a modified differential amplifier configuration with 100:1 attenuation on the inputs to allow wide common-mode swings. Additionally, the inputs are ac-coupled, by C1/C2, to provide high-voltage dc blocking. The first-stage, IC1, re-amplifies the signal by 10:1 as does the single-ended output stage IC2, for a composite gain of 1:1. A back-termination resistor, R12, provides stability when driving a cable to the 1MΩ oscilloscope input port, and is AC-coupled, C6, to remove the 2.5V output-stage bias._   
+The [LT1761 ](pdf-files/datasheet_-_LT1761.pdf) low noise LDO micropower regulator IC3 outputs a stable 5v to power the entire circuit, coming from a standard [9V block battery](pdf-files/datasheet_-_9v-alkaline.pdf).
 
 #### Schematics
 
