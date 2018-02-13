@@ -9,7 +9,8 @@ This repository describes how to build your own differential oscilloscope probe.
 
 ## Why
 
-A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly gotten better over the years, I decided to build an improved version with better [specifications](#input-specifications), based on modern SMD components.
+A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly gotten better over the years, I decided to build an improved version with better [specifications](#input-specifications), based on modern SMD components.   
+The below ["What is it all about"](#a-differential-probe,-what-is-it-all-about-?) section will explain why you would actually want to build a differential probe, how it works, and what it can be used for in your lab.
 
 ## How
 
@@ -47,7 +48,7 @@ The [LT1761 ](pdf-files/datasheet_-_LT1761.pdf) low noise LDO micropower regulat
 
 #### Schematics
 
-[![schematic](images/schematic-s.png)](images/schematic.png)
+[![schematic](images/schematic-m.png)](images/schematic.png)
 
 #### Printed circuit board
 
