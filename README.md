@@ -98,7 +98,7 @@ The pcb for the probe has been designed in such a way that it can be fixed with 
 
 ### Building instructions
 
-...publication in progress...
+The best way to populate the PCB, in case of hand-soldering, is to start with the chips IC1,IC2,IC3, as you will need access to the surroundings to remove the excess solder with some braided shielding wire. Next all 1206 package SMD components can be mounted (resistors and capacitors). Then you can also mount the aluminium capacitor C8 (look at the footprint for the correct orientation). After having finished with the SMD components, through-hole capacitors C1,C2 need to be mounted. Next, push the BNC connector's mechanical pins firmly in the pcb (the holes are very tight). Switch S1, which is soldered sideways on the component side should be positioned in order for the metal housing to be just behind the frontplate of the Hammond enclosure (for positioning, first only solder the middle pin, put the pcb in the enclosure, and slide in the frontplate to check the position). Finally, the 9V clip wires can be soldered (mind polarisation). Finish by preparing to wires (ideally using different colours), which will be connected to the two signal-in banana connectors during final mounting.
 
 ## Contributors
 
