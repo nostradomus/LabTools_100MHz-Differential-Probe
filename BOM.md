@@ -21,5 +21,5 @@ CON2-1, CON2-1 | 4mm       (2) | banana socket    | 4mm red/black banana socket
 CON3	         | BNC	         | BNC-F-90-4       | female BNC 90° (PCB)
 H1             | 1593LGY       | enclosure        | Hammond 1593L enclosure
 
-(1) 1kV or 3kV, see building instructions in the [README.md](../README.md) main-page   
-(2) use appropriate double isolated banana sockets for measurements on lines >48V (building instructions in the [README.md](../README.md) main-page)
+(1) 1kV or 3kV, see building instructions in the [README.md](./README.md) main-page   
+(2) use appropriate double isolated banana sockets for measurements on lines >48V (building instructions in the [README.md](./README.md) main-page)
