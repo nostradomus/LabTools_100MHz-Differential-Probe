@@ -17,9 +17,9 @@ IC1, IC2	     | LTC6268HS6-10 | SOT95P280X100-6N | op-amp
 IC3	           | LT1761ES5-5	 | SOT95P280X100-5N | LDO voltage regulator
 S1	           | SPDT	         | MINI SWITCH 90   | mini toggle switch
 CON1           | 9V            | soft clip        | 9V battery clip
-CON2-1, CON2-1 | 6mm       (2) | banana outlet    | red/black banana outlet
+CON2-1, CON2-1 | 4mm       (2) | banana socket    | 4mm red/black banana socket
 CON3	         | BNC	         | BNC-F-90-4       | female BNC 90° (PCB)
 H1             | 1593LGY       | enclosure        | Hammond 1593L enclosure
 
-(1) 1kV or 3kV, check the comments in below [building instructions](#Building-instructions)   
-(2) use double isolated banana outlets for measurements on lines >48V
+(1) 1kV or 3kV, see building instructions in the [README.md](../README.md) main-page   
+(2) use appropriate double isolated banana sockets for measurements on lines >48V (building instructions in the [README.md](../README.md) main-page)
