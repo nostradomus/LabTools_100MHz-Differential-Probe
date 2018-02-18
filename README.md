@@ -92,9 +92,9 @@ H1             | 1593LGY       | enclosure        | Hammond 1593L enclosure
 
 ### Mechanical construction
 
-The bases for the housing is an abs handheld instrument enclosure from the [1593 series](https://www.hammfg.com/electronics/small-case/plastic/1593), fabricated by [Hammond manufacturing](https://www.hammfg.com/), more specifically [1593LGY](pdf-files/) (grey-coloured, with two removable end-plates).
+The bases for the housing is an abs handheld instrument enclosure from the [1593 series](https://www.hammfg.com/electronics/small-case/plastic/1593), fabricated by [Hammond manufacturing](https://www.hammfg.com/), more specifically [1593LGY](pdf-files/datasheet_-_Hammond_1593L.pdf) (grey-coloured, with two removable end-plates).
 
-![Hammond 1593L enclosure](images/hammond1593-enclosure.png) 
+[![Hammond 1593L enclosure](images/hammond1593-enclosure.png)](pdf-files/datasheet_-_Hammond_1593L.pdf)
 
 The pcb for the probe has been designed in such a way that it can be fixed with four screws to the bottom of the enclosure. On the side of the pcb, cut-outs have been foreseen for the holes that allow to screw the bottom and top of the enclosure together. The large rectangle cut-out fits a [9V block battery](pdf-files/datasheet_-_9v-alkaline.pdf) which serves as power supply for the probe. A T-shaped groove on the input-side protects the circuitry from arcing  and creep when higher input voltages are applied (please implement all safety precautions as explained in the [electronics](#Electronics) and [building](#Building-instructions) paragraphs when working with potential differences which are higher than 48V-to-earth).
 
