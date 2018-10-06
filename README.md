@@ -9,7 +9,7 @@ This repository describes how to build your own differential oscilloscope probe.
 
 ## Why
 
-A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly gotten better over the years, I decided to build an improved version with better [specifications](#input-specifications), based on modern SMD components.   
+A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly improved over the years, I decided to build a version "2.0" with better [specifications](#input-specifications), based on modern SMD components.   
 The below ["What is it all about"](#a-differential-probe,-what-is-it-all-about-?) section will explain why you would actually want to build a differential probe, how it works, and what it can be used for in your lab.
 
 ## How
@@ -31,7 +31,7 @@ The chip supplier for this project is also having a SPICE (Simulation Program wi
  - [x] decide on what is should [look](#how) like
  - [ ] create drawings for the [housing](#mechanical-construction)
  - [ ] [test and validate](#demo-setup-and-measurements) the concept
- - [ ] publish the [schematic and explain the electronics](#electronics)
+ - [x] publish the [schematic and explain the electronics](#electronics)
  - [x] publish production files for the [electronics board](#printed-circuit-board) board
  - [ ] write [end-user documentation](https://github.com/nostradomus/100MHz+_Differential_Probe/wiki)
 
