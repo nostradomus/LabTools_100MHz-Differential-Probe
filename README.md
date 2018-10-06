@@ -9,8 +9,10 @@ This repository describes how to build your own differential oscilloscope probe.
 
 ## Why
 
-A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly improved over the years, I decided to build a version "2.0" with better [specifications](#input-specifications), based on modern SMD components.   
+A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly improved over the years, I decided to build the next version with better [specifications](#input-specifications), based on modern SMD components.   
 The below ["What is it all about"](#a-differential-probe,-what-is-it-all-about-?) section will explain why you would actually want to build a differential probe, how it works, and what it can be used for in your lab.
+
+The initial reason for building these differentials probes concerned troubleshooting of serial  industrial communication equipment (mainly RS422/485).
 
 ## How
 
@@ -28,7 +30,10 @@ Differential signals are the opposite of [single-ended signals](https://en.wikip
 
 #### Differential probe
 
-...publication in progress...
+Now, why building this accessory for your oscilloscope ?                           
+Nowadays, most oscilloscopes do have built-in functionality to subtract the signals between two channels. However, most oscilloscopes unfortunately only have two channels. So when during troubleshooting, you would like to compare the differential signal to anything else in your electronics circuit, a third channel (or second oscilloscope) would be required.
+
+Todo : more info is coming...  
 
 ### Simulation and calculations
 
@@ -39,7 +44,7 @@ The chip supplier for this project is also having a SPICE (Simulation Program wi
  - [x] have a [need](#why)
  - [x] define the technical [specifications](#input-specifications)
  - [x] decide on what is should [look](#how) like
- - [ ] create drawings for the [housing](#mechanical-construction)
+ - [x] create drawings for the [housing](#mechanical-construction)
  - [x] [test and validate](#demo-setup-and-measurements) the concept
  - [x] publish the [schematic and explain the electronics](#electronics)
  - [x] publish production files for the [electronics board](#printed-circuit-board) board
@@ -109,6 +114,8 @@ The bases for the housing is an abs handheld instrument enclosure from the [1593
 [![Hammond 1593L enclosure](images/hammond1593-enclosure.png)](pdf-files/datasheet_-_Hammond_1593L.pdf)
 
 The pcb for the probe has been designed in such a way that it can be fixed with four screws to the bottom of the enclosure. On the side of the pcb, cut-outs have been foreseen for the holes that allow to screw the bottom and top of the enclosure together. The large rectangle cut-out fits a [9V block battery](pdf-files/datasheet_-_9v-alkaline.pdf) which serves as power supply for the probe. A T-shaped groove on the input-side protects the circuitry from arcing  and creep when higher input voltages are applied (please implement all safety precautions as explained in the [electronics](#Electronics) and [building](#Building-instructions) paragraphs when working with potential differences which are higher than 48V-to-earth).
+
+In order to be able to mount the input and output connectors, as well as for power switch operation, several holes need to be made in the frontplates. The easiest way is to use the  templates for [laser-cutting](laser-cutting-files/) available in the [respective folder](laser-cutting-files/) (instructions included in the [readme-file](laser-cutting-files/README.md)). A cutting template is available for both the [input panel](laser-cutting-files/input_panel_cutting_template.cdr) and the [output panel](laser-cutting-files/output_panel_cutting_template.cdr). The templates have been drawn on scale in Coreldraw X6, and as such, can also be used as a guide to drill the required holes by hand.
 
 ### Building instructions
 
