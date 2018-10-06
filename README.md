@@ -12,7 +12,7 @@ This repository describes how to build your own differential oscilloscope probe.
 A couple of years ago I built a [basic differential probe, limited to 1MHz/700Vpp input signals](https://github.com/nostradomus/LabTools_1MHz-Differential-Probe). The design was entirely done with through-hole components on a single-sided pcb. As technology and material have significantly improved over the years, I decided to build the next version with better [specifications](#input-specifications), based on modern SMD components.   
 The below ["What is it all about"](#a-differential-probe,-what-is-it-all-about-?) section will explain why you would actually want to build a differential probe, how it works, and what it can be used for in your lab.
 
-The initial reason for building these differentials probes concerned troubleshooting of serial  industrial communication equipment (mainly RS422/485).
+The initial reason for building these differential probes concerned troubleshooting of serial  industrial communication equipment (mainly RS422/485).
 
 ## How
 
