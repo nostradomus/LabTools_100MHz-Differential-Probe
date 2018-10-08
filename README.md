@@ -55,7 +55,7 @@ The chip supplier for this project is also having a SPICE (Simulation Program wi
 ### Input specifications
 
 - 1:1 active differential probe
-- (over) 100MHz off bandwith
+- (over) 100MHz of bandwith
 - 100kΩ input resistance
 - max 700Vpp or 2500Vpp (depending on C1,C2)
 
