@@ -128,14 +128,14 @@ As for the incoming signal, there are several options, depending on the target a
 ## Contributors
 
 If you are having any good suggestions, just drop me a line [:email:](http://nostradomus.ddns.net/contactform.html).
-If feasible, I'll be happy to implement proposed improvements.
+If feasible, I'll be happy to implement any proposed improvements.
 And if you are having lots of time, I'll be happy to share the work with you ;-).
 
 When you create your own version, don't forget to send us some nice pictures of your construction. We'll be happy to publish them in the :confetti_ball:Hall of Fame:confetti_ball:.
 
 ## :globe_with_meridians: License
 
-At this moment, there is no specific license attached to this project yet.
+At this moment, there is no specific license attached to this project.
 
 So, today, if you like it, have fun with it (at your own risk of course :-D), and especially, be creative.
 
